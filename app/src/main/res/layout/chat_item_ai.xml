@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="8dp">
+
+    <!-- AI Logo -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        app:cardCornerRadius="21dp"
+        app:cardBackgroundColor="@color/green_primary"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/village_logo"
+            android:scaleType="centerInside"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Message Bubble -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- AI Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Village AI"
+            android:textColor="@color/green_dark"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <!-- Bubble -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:cardCornerRadius="18dp"
+            app:cardBackgroundColor="@color/green_light"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/txtAI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="260dp"
+                android:padding="14dp"
+                android:text="Hello! How can I help you today?"
+                android:textColor="@color/text_dark"
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="10:45 PM"
+            android:textColor="#757575"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

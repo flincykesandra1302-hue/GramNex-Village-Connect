@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Brand -->
+    <color name="primary">#1B7F5A</color>
+    <color name="primary_dark">#0F5E43</color>
+    <color name="primary_light">#E8F5EE</color>
+
+    <!-- Accent -->
+    <color name="accent">#F4B942</color>
+    <color name="accent_light">#FFE8A3</color>
+
+    <!-- Greens -->
+    <color name="green_primary">#1B7F5A</color>
+    <color name="green_dark">#0F5E43</color>
+    <color name="green_light">#E8F5EE</color>
+
+    <!-- Yellow -->
+    <color name="yellow_primary">#F4B942</color>
+    <color name="yellow_light">#FFF4D6</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F7FAF8</color>
+    <color name="card_bg">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_dark">#18352A</color>
+    <color name="text_gray">#6B7280</color>
+    <color name="text_light">#FFFFFF</color>
+
+    <!-- Status -->
+    <color name="success">#22C55E</color>
+    <color name="warning">#F59E0B</color>
+    <color name="danger">#EF4444</color>
+
+    <!-- Android defaults -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
